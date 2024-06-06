@@ -61,13 +61,12 @@ def plotNewton():
     plt.grid(True)
     plt.show()
 
-# Data contoh
+#Nilai x dan y
 x = [5, 10, 15, 20, 25, 30, 35, 40]
 y = [40, 30, 25, 40, 18, 20, 22, 15]
 
 coef = divided_difference(x, y)
 
-# Membuat GUI
 root = tk.Tk()
 root.title("Interpolasi")
 plot_button = tk.Button(root, text="Plot Interpolasi Lagrange", command=plotLagrange)
