@@ -1,6 +1,6 @@
 def divided_diff(x, y):
     n = len(y)
-    coef = [y[:]]  # Start with the y values
+    coef = [y[:]]
 
     for j in range(1, n):
         column = []
